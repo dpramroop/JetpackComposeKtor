@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="please_sign_in_the_box_below">please sign below</string>
+    <string name="done">Done</string>
+</resources>
