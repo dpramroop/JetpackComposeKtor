@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\Brought_in_Controller;
 use App\Models\User;
 use Illuminate\Support\Facades\Log;
 
@@ -42,3 +43,5 @@ Route::post('/testtoken', function (Request $request) {
     return $request;
 })->middleware('auth:sanctum');
 // ->middleware('auth:sanctum')
+
+Route::post('/AddBroughtIn',[Brought_in_Controller::class,'AddBroughtIn']);

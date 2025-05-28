@@ -16,6 +16,7 @@ return new class extends Migration
             $table->Integer("deviceid");
             $table->String("serial_no");
             $table->String("issue");
+            $table->String("location");
             $table->timestamps();
         });
     }

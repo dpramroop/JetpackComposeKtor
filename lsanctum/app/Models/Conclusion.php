@@ -7,4 +7,11 @@ use Illuminate\Database\Eloquent\Model;
 class Conclusion extends Model
 {
     //
+      protected $table = 'conclusion';
+    protected $fillable = [
+        'Description',
+        'Model',
+        'Brand',
+        
+    ];
 }
